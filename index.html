@@ -1,0 +1,54 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="spin.css">
+  </head>
+  <body>
+    <div class="main">
+     <table>
+       <tr>
+            <td colspan="4">
+              <div class="spinner textview" id= "inputLabel" >
+              <div class="rect1" id="rect"></div>
+              </div></td>
+        </tr>
+        <tr>
+
+       <tr>
+         <td><button class='btn' onclick='pushBtn(this);' >AC</button></td>
+         <td><button class='btn' onclick='pushBtn(this);'>C</button></td>
+         <td><button class='btn' onclick='pushBtn(this);'>/</button></td>
+         <td><button class='btn' onclick='pushBtn(this);'>*</button></td>
+       </tr>
+       <tr>
+         <td><button class='btn' onclick='pushBtn(this);'>7</button></td>
+         <td><button class='btn' onclick='pushBtn(this);'>8</button></td>
+         <td><button class='btn' onclick='pushBtn(this);'>9</button></td>
+         <td><button class='btn' onclick='pushBtn(this);'>-</button></td>
+       </tr>
+       <tr>
+         <td><button class='btn' onclick='pushBtn(this);'>4</button></td>
+         <td><button class='btn' onclick='pushBtn(this);'>5</button></td>
+         <td><button class='btn' onclick='pushBtn(this);'>6</button></td>
+         <td><button class='btn' onclick='pushBtn(this);'>+</button></td>
+       </tr>
+         <tr>
+           <td><button class='btn' onclick='pushBtn(this);'>1</button></td>
+           <td><button class='btn' onclick='pushBtn(this);'>2</button></td>
+           <td><button class='btn' onclick='pushBtn(this);'>3</button></td>
+           <td rowspan=2><button class='btn-eq' onclick='pushBtn(this);'>=</button></td>
+         </tr>
+         <tr>
+           <td colspan=2><button class='btn-0' onclick='pushBtn(this)'>0</button></td>
+           <td><button class='btn-dot' onclick='pushBtn(this);'>.</button></td>
+         </tr>
+     </table>
+   </div>
+  <script type="text/javascript" src="main.js"></script>
+  </body>
+  </html>
