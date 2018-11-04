@@ -14,7 +14,7 @@ var inputLabel = document.getElementById('rect');
 
         }else if (pushed == 'C') {
             // All Clear
-            inputLabel.innerHTML = '0';
+            inputLabel.innerHTML = pushed.substr(0,output.length-1);
 
         } else {
             if (inputLabel.innerHTML == '0') {
